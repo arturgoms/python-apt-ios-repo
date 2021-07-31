@@ -16,5 +16,6 @@ setup(
     description='Python library to manage and query APT repositories from iOS Jailbreak community',
     long_description_content_type='text/markdown',
     long_description=long_description,
-    python_requires='>=3.5'
+    python_requires='>=3.9',
+    install_requires=['requests'],
 )
